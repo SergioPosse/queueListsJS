@@ -1,0 +1,2 @@
+Todo el trabajo es puro html y javascript, en teoria no hace falta xammp ni nada para correrlo
+solo abrir el index.html en el navegador

@@ -1,0 +1,26 @@
+
+            while(aux){
+
+                aux2=aux.siguiente;
+
+                while(aux2){
+
+                    if(aux2.dato<aux.dato){
+                        temp=aux.dato;
+                        aux.dato = aux2.dato;
+                        aux2.dato = temp;
+                    }
+                    aux2=aux2.siguiente;
+                }
+            aux=aux.siguiente;
+            }
+        }
+
+
+probando los for
+probar agregando los dos valores que se compararon en cada vuelta del for por el console.log
+
+el for de adentro va en factorial el de afuera es poco o una ve menos q el tamaño de la lista
+
+
+probar declarando las variabls con let dentro del for asi se reinician siempre si es qe apuntan a un nodo.dato en vez de asignar el valor

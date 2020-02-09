@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Practico Listas y colas</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link type="text/css" rel="stylesheet" href="materialize.min.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="row">
+                <div class="col l2">
+
+                </div>
+                <div class="col l8 center">
+                    <section>
+                        <h5>Estructuras De Datos</h2>
+                        <label>Listas (List) y Colas (Queue)</label>
+                        <div id="clicks"></div>
+                        <input class="center" placeholder="Escriba un numero" type="text" id="numero"> 
+                    </section>
+                </div>
+                   
+                <div class="col l2">
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l2">
+
+                </div>
+                <div class="col l8 center centered">
+                    "Ordenar dsc/asc" ordena de forma descendente y ascendente en cada click
+                </div>
+                <div class="col l2">
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                    <div class="col l2">
+                            
+                    </div>
+                    <div class="col l4 blue CENTER">
+                        COLA
+                    </div>
+                <div class="col l4 pink CENTER">
+                    LISTA
+                </div> 
+                    <div class="col l2">
+                            
+                    </div>
+            </div>
+
+            <div class="row">
+                    <div class="col l2">
+                            
+                    </div>
+                    <div class="col l4 blue" style="padding: 30px; padding-bottom: 36px;">
+                            <a id="encolar" style="width: 220px;margin-top:44px;"class="waves-effect btn">Encolar</a>
+                            <a id="desencolar" style="width: 220px;"class="waves-effect btn">Desencolar</a>
+                            <a id="peek" style="width: 220px;"class="waves-effect btn">Peek</a>
+                            <a id="limpiarCola" style="width: 220px;"class="waves-effect btn">Limpiar</a>
+                            <div class="col l6" id="frente">Frente:</div><div class="col l6" id="ultimo">Ultimo(cola):</div>
+
+                    </div>
+                <div class="col l4 pink" style="padding: 30px;height:276px; ">
+                                <a id="agregarInicio" style="width: 220px;"class="waves-effect btn">Agregar Al Inicio</a>
+                                <a id="agregarFinal" style="width: 220px;"class="waves-effect btn">Agregar Al Final</a>
+                                <a id="eliminarPrimero" style="width: 220px;"class="waves-effect btn">Eliminar Primero</a>
+                                <a id="eliminarUltimo" style="width: 220px;"class="waves-effect btn">Eliminar Ultimo</a>
+                                <a id="ordenar" style="width: 220px;"class="waves-effect btn">Ordenar Dsc/Asc</a>
+                                <a id="limpiarLista" style="width: 220px;"class="waves-effect btn">Limpiar</a>
+                                <div class="row centered center">
+                                    <div style="padding-bottom:0px;margin-bottom:-50px;"class="col centered center" id="tamañoLista">
+                                            Tamaño: 0
+                                    </div>
+                                    
+                                </div>
+                    </div>    
+                    <div class="col l2">
+                            
+                    </div>
+            </div>
+
+            <div class="row">
+
+                        <div class="col l2">
+                        
+                        </div>
+
+                        <div class="col l4 blue center">
+                           
+                            <div class="row center" id="contenedorCola">
+                                
+                            </div>
+                          
+                        </div>
+
+                        <div class="col l4 pink center">
+                            
+                                <div class="row center" id="contenedorLista">
+                                    
+                                </div> 
+                        </div>
+
+                        <div class="col l2">
+                        
+                        </div>
+               
+                     <div class="col l2">
+
+                    </div>
+                
+            </div>
+        </div>
+        <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="materialize.min.js"></script>
+
+
+        <script type="text/javascript" src="lista_simple.js"></script>
+        <script type="text/javascript" src="cola.js"></script>
+    </body>
+</html>

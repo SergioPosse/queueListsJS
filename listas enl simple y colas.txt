@@ -1,0 +1,31 @@
+COLA  
+
+constructor
+
+encolar
+desencolar
+obtenertamaño
+estavacia
+peek
+print
+
+
+
+
+
+
+LISTAS DOBLEMENTE ENLAZADAS
+
+cons nodo
+cons list
+
+addtohead
+addtotail
+insertat
+removefromtail
+removefromhead
+removedata
+print
+printreverse
+getsize
+isempty
